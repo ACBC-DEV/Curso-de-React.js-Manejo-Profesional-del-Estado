@@ -1,0 +1,16 @@
+ REACT useEffect
+
+ React.useEffect es un método con 2 parámetros:
+
+ El primero, siempre se usa y es una función a ejecutar.
+
+ El segundo, opcional e importante, nos indica cuando se va a ejecutar nuestro primer parámetro. Los posibles valores de este parámetro son:
+
+ Ningun valor:
+ esta función se ejecutará cada vez que nuestro componente haga render (es decir, cada vez que haya cambios en cualquiera de nuestros estados).
+
+ Arreglo vacio:
+ nuestro efecto solo se ejecuta una vez, cuando recién hacemos el primer render de nuestro componente.
+
+ Arreglo no vacio:
+ O también podemos enviar un array con distintos elementos para decirle a nuestro efecto que no solo ejecute en el primer render, sino también cuando haya cambios en esos elementos del array.
